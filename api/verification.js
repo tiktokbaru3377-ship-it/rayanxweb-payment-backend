@@ -23,8 +23,8 @@ async function handler(req, res) {
             return res.status(400).json({ success: false, message: 'Parameter query ?trx_id= wajib dilampirkan.' });
         }
 
-        const va = process.env.IPAYMU_VA;
-        const apiKey = process.env.IPAYMU_KEY;
+        const va = process.env.IPAYMU_VA ? process.env.IPAYMU_VA.trim() : '';
+        const apiKey = process.env.IPAYMU_KEY ? process.env.IPAYMU_KEY.trim() : '';
         const isProduction = process.env.IPAYMU_SANDBOX !== 'true';
 
         const body = { transactionId: parseInt(trx_id) };

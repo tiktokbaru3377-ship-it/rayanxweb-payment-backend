@@ -10,11 +10,5 @@
         { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
       ]
     }
-  ],
-  "routes": [
-    { "source": "/api/payment", "dest": "/api/payment.js" },
-    { "source": "/api/callback", "dest": "/api/callback.js" },
-    { "source": "/api/check-balance", "dest": "/api/check-balance.js" },
-    { "source": "/api/verification", "dest": "/api/verification.js" }
   ]
 }

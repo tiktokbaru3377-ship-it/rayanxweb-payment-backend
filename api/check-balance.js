@@ -14,8 +14,8 @@ function allowCors(fn) {
 
 async function handler(req, res) {
     try {
-        const va = process.env.IPAYMU_VA;
-        const apiKey = process.env.IPAYMU_KEY;
+        const va = process.env.IPAYMU_VA ? process.env.IPAYMU_VA.trim() : '';
+        const apiKey = process.env.IPAYMU_KEY ? process.env.IPAYMU_KEY.trim() : '';
         const isProduction = process.env.IPAYMU_SANDBOX !== 'true';
 
         const bodyEncrypt = JSON.stringify({});

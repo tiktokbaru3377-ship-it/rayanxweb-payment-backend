@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESELLER RAYANXWEB - AJM GUARDIAN</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .neon-glow-indigo { box-shadow: 0 0 40px rgba(99, 102, 241, 0.15); }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white relative min-h-screen overflow-x-hidden">
+
+    <div class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-indigo-600/10 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="absolute top-[30%] right-[-10%] w-[45vw] h-[45vw] bg-purple-600/5 rounded-full blur-[160px] pointer-events-none opacity-20"></div>
+    <div class="absolute bottom-[10%] left-[5%] w-[40vw] h-[40vw] bg-emerald-600/5 rounded-full blur-[130px] pointer-events-none"></div>
+
+    <nav class="sticky top-0 z-40 bg-slate-950/40 backdrop-blur-2xl border-b border-slate-900/80 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-3 group cursor-pointer">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition-all duration-300">
+                        <i class="fa-solid fa-shield-halved text-white text-base animate-pulse"></i>
+                    </div>
+                    <span class="text-xl font-black tracking-wider text-white">RESELLER RAYANXWEB</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative pt-24 pb-28 border-b border-slate-900/60 text-center">
+        <div class="max-w-4xl mx-auto px-4 relative z-10 space-y-8">
+            <span class="inline-flex items-center gap-2 py-2 px-4 rounded-full text-[10px] font-black bg-indigo-500/5 border border-indigo-500/15 text-indigo-400 uppercase tracking-widest backdrop-blur-md">
+                <span class="w-2 h-2 rounded-full bg-indigo-400 animate-ping"></span> RESELLER RAYANXWEB - AJM GUARDIAN
+            </span>
+            <h1 class="text-5xl sm:text-7xl font-black text-white tracking-tight leading-none">
+                Monitoring <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-400 to-emerald-400">Perangkat Keluarga</span>
+            </h1>
+            <p class="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">
+                Platform pemantauan ekosistem digital anak dan manajemen keamanan gawai terintegrasi. Cepat, senyap, aman, dan sepenuhnya berbasis cloud.
+            </p>
+            <div class="flex justify-center gap-4 pt-4">
+                <a href="#harga" class="bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-4 rounded-xl text-xs font-extrabold tracking-widest uppercase transition-all duration-300 shadow-xl shadow-indigo-600/20 hover:shadow-indigo-500/30 hover:scale-[1.02]">
+                    Beli Lisensi Akun
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="fitur" class="py-28 max-w-4xl mx-auto px-4 relative">
+        <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-slate-900/80 pb-10 mb-14 gap-6">
+            <div class="space-y-1">
+                <h2 class="text-xs font-black tracking-widest text-indigo-400 uppercase">Kapabilitas Sistem</h2>
+                <p class="text-2xl sm:text-3xl font-black text-white tracking-tight">Eksplorasi 15 Fitur Utama</p>
+            </div>
+            <p class="text-xs text-slate-400 font-medium max-w-xs leading-relaxed">Tekan pada salah satu baris modul kontrol di bawah untuk memunculkan detail dokumentasi operasional.</p>
+        </div>
+
+        <div class="space-y-3.5" id="main-features-list">
+            <div onclick="bukaModalFitur('AKTIVITAS LAYAR', 'Pantau layar perangkat anak secara realtime, presisi, tanpa delay untuk mengawasi konten yang sedang dibuka.', 'fa-desktop')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-indigo-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-desktop text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">AKTIVITAS LAYAR</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Pantau jalannya transmisi layar tanpa jeda...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-indigo-400 group-hover:border-indigo-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('FAMILY CAM', 'Mengontrol dan memantau aktivitas kamera sekitar anak dari jauh untuk memastikan lingkungan fisik anak tetap aman.', 'fa-camera')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-emerald-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-camera text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">FAMILY CAM</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Uji tangkapan lensa kamera sekitar secara senyap...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-emerald-400 group-hover:border-emerald-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('KONTROL PERANGKAT', 'Membatasi penggunaan perangkat jarak jauh, mengunci paksa, atau membatasi akses aplikasi tertentu saat jam belajar.', 'fa-lock')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-rose-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-rose-400 group-hover:bg-rose-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-lock text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">KONTROL PERANGKAT</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Kunci panel dan batasi jam operasional operasi...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-rose-400 group-hover:border-rose-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('CHAT MONITOR', 'Memonitor pesan masuk dan keluar pada platform sosial media anak untuk mencegah cyberbullying.', 'fa-comment-dots')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-purple-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-purple-400 group-hover:bg-purple-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-comment-dots text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">CHAT MONITOR</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Saring riwayat obrolan masuk pesan sosial...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-purple-400 group-hover:border-purple-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('LOG PANGGILAN', 'Melihat detail riwayat telepon keluar, masuk, panggilan tak terjawab, beserta durasi dan stempel waktu.', 'fa-phone-flip')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-amber-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-amber-400 group-hover:bg-amber-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-phone-flip text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">LOG PANGGILAN</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Dapatkan laporan durasi kontak masuk keluar...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-amber-400 group-hover:border-amber-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('HARDWARE INFO', 'Memeriksa kapasitas sisa baterai, penggunaan RAM, status penyimpanan internal, serta kestabilan koneksi internet target.', 'fa-microchip')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-sky-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-sky-400 group-hover:bg-sky-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-microchip text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">HARDWARE INFO</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Periksa kapasitas daya baterai, RAM gudang...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-sky-400 group-hover:border-sky-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div onclick="bukaModalFitur('LOKASI', 'Pelacakan koordinat GPS real-time posisi anak berada lengkap dengan riwayat rute jalan yang telah dilalui.', 'fa-earth-asia')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 hover:border-blue-500/30 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                <div class="flex items-center gap-4.5">
+                    <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-inner">
+                        <i class="fa-solid fa-earth-asia text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xs font-black text-white tracking-wider uppercase">LOKASI</h3>
+                        <p class="text-[11px] text-slate-400 font-medium mt-0.5">Pantau titik koordinat geofencing aktual...</p>
+                    </div>
+                </div>
+                <div class="w-8 h-8 rounded-xl bg-slate-950/60 border border-slate-900 flex items-center justify-center text-slate-600 group-hover:text-blue-400 group-hover:border-blue-500/20 transition-all duration-300">
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </div>
+            </div>
+
+            <div id="extended-features" class="hidden space-y-3.5 pt-3.5">
+                <div onclick="bukaModalFitur('EMAIL MONITOR', 'Memonitoring riwayat pengiriman pesan masuk dan keluar dari kotak surat elektronik gmail/outlook anak.', 'fa-envelope')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-fuchsia-400 shadow-inner">
+                            <i class="fa-solid fa-envelope text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">EMAIL MONITOR</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Sinkronisasi pesan masuk kotak mail elektronik...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('GALLERY', 'Memantau folder penyimpanan foto perangkat guna mendeteksi masuknya file visual berbahaya.', 'fa-images')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-teal-400 shadow-inner">
+                            <i class="fa-solid fa-images text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">GALLERY</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Inspepsi galeri berkas gambar penyimpanan...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('VIDEO PLAYER', 'Memantau berkas video lokal yang tersimpan atau diputar pada handphone target anak.', 'fa-circle-play')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-orange-400 shadow-inner">
+                            <i class="fa-solid fa-circle-play text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">VIDEO PLAYER</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Periksa log video lokal terunduh...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('FILE EXPLORER', 'Akses remote penuh ke file manajer internal sdcards untuk memeriksa berkas unduhan.', 'fa-folder-open')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-yellow-500 shadow-inner">
+                            <i class="fa-solid fa-folder-open text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">FILE EXPLORER</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Akses struktur direktori manajer berkas...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('CONTACT', 'Melihat daftar nama kontak telepon baru untuk memvalidasi teman terdekat komunikasi anak.', 'fa-address-book')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-pink-400 shadow-inner">
+                            <i class="fa-solid fa-address-book text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">CONTACT</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Amankan daftar kontak dari nomor asing...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('LIVE MIRRORING', 'Melakukan proyeksi cermin stream layar perangkat secara instan dengan otorisasi kecocokan pin enkripsi.', 'fa-clone')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-cyan-300 shadow-inner">
+                            <i class="fa-solid fa-clone text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">LIVE MIRRORING</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Proyeksi stream gawai instan...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('APP MANAGEMENT', 'Mendeteksi daftar program terinstal, memblokir penginstalan aplikasi gelap tidak berizin secara sepihak.', 'fa-shapes')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-green-400 shadow-inner">
+                            <i class="fa-solid fa-shapes text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">APP MANAGEMENT</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Blokir atau batasi durasi program...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+
+                <div onclick="bukaModalFitur('SYSTEM HISTORY', 'Menyimpan log rekam jejak kapan sistem melakukan reboot, mati daya, atau pergantian kartu SIM.', 'fa-clock-rotate-left')" class="bg-slate-900/20 hover:bg-slate-900/60 border border-slate-900 p-4.5 rounded-2xl flex items-center justify-between cursor-pointer transition-all duration-300 group shadow-sm backdrop-blur-md">
+                    <div class="flex items-center gap-4.5">
+                        <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-900/60 flex items-center justify-center text-indigo-400 shadow-inner">
+                            <i class="fa-solid fa-clock-rotate-left text-base"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-black text-white uppercase tracking-wider">SYSTEM HISTORY</h3>
+                            <p class="text-[11px] text-slate-400 font-medium mt-0.5">Rekam rekam jejak riwayat sistem log gawai...</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right text-[10px] text-slate-600"></i>
+                </div>
+            </div>
+
+            <div class="pt-6">
+                <button id="btn-toggle-fitur" onclick="toggleTampilanFitur()" class="w-full bg-slate-900/80 hover:bg-slate-850 border border-slate-800 text-slate-300 py-3.5 rounded-xl font-bold text-xs tracking-widest uppercase transition-all duration-300 cursor-pointer flex items-center justify-center gap-2 shadow-md active:scale-99">
+                    <span>Klik Selengkapnya</span> <i id="icon-toggle-fitur" class="fa-solid fa-chevron-down text-[10px]"></i>
+                </button>
+            </div>
+        </div>
+
+        <p class="text-center text-[10px] text-slate-600 mt-8 italic font-medium tracking-wide">
+            Dilarang keras menyalahgunakan aplikasi ini untuk penipuan dan pemerasan. Dev - Ajm Project
+        </p>
+    </section>
+
+    <section id="harga" class="py-28 bg-slate-900/10 border-y border-slate-900/60 relative backdrop-blur-3xl">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-xl mx-auto mb-20 space-y-4">
+                <h2 class="text-3xl font-black text-white sm:text-4xl tracking-tight">Pilih Lisensi Akun Anda</h2>
+                <div class="inline-flex items-center gap-2 bg-rose-500/5 border border-rose-500/15 px-4 py-1.5 rounded-xl text-rose-400 font-extrabold text-xs tracking-wider uppercase backdrop-blur-md">
+                    <i class="fa-solid fa-ban text-[10px]"></i> Ketetapan: Harga Pas / Tidak Bisa Nego
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch mb-10">
+                <div class="bg-slate-900/30 border border-slate-900 hover:border-indigo-500/30 rounded-2xl p-6.5 flex flex-col justify-between hover:scale-[1.02] transition-all duration-300 shadow-xl group backdrop-blur-md">
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xs font-black text-white tracking-widest uppercase group-hover:text-indigo-400 transition-colors">Paket Premium</h3>
+                            <span class="bg-slate-950 text-slate-400 border border-slate-900 px-2.5 py-1 rounded-lg text-[10px] font-bold tracking-wider">30 Hari</span>
+                        </div>
+                        <div class="text-white">
+                            <span class="text-3xl font-black tracking-tight">Rp 150.000</span>
+                        </div>
+                        <div class="border-t border-slate-900 pt-5 space-y-3 text-xs text-slate-400 font-medium">
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-indigo-500 text-[11px]"></i> Aktif 30 Hari Penuh</p>
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-indigo-500 text-[11px]"></i> Full 15+ Fitur Kontrol</p>
+                        </div>
+                    </div>
+                    <button onclick="bukaPopupPayment('Paket Premium', 150000)" class="mt-10 w-full bg-slate-900 hover:bg-indigo-600 border border-slate-800 hover:border-transparent text-white py-3.5 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-md">
+                        Pilih Paket
+                    </button>
+                </div>
+
+                <div class="bg-slate-900/70 border-2 border-indigo-500 rounded-2xl p-6.5 flex flex-col justify-between relative shadow-2xl shadow-indigo-500/10 scale-103 z-10 hover:scale-[1.04] transition-all duration-300">
+                    <span class="absolute -top-3 left-6 bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-1 rounded-full text-[9px] font-black uppercase tracking-widest shadow-lg shadow-indigo-500/20">Paling Populer</span>
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xs font-black text-indigo-400 tracking-widest uppercase">Paket Permanen</h3>
+                            <span class="bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 px-2.5 py-1 rounded-lg text-[10px] font-black tracking-wider">1 Tahun</span>
+                        </div>
+                        <div class="text-white">
+                            <span class="text-3xl font-black tracking-tight">Rp 300.000</span>
+                        </div>
+                        <div class="border-t border-indigo-950/60 pt-5 space-y-3 text-xs text-slate-300 font-medium">
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-indigo-400 text-[11px]"></i> Masa Aktif 1 Tahun</p>
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-indigo-400 text-[11px]"></i> Prioritas Bandwidth Server</p>
+                        </div>
+                    </div>
+                    <button onclick="bukaPopupPayment('Paket Permanen', 300000)" class="mt-10 w-full bg-indigo-600 hover:bg-indigo-500 text-white py-3.5 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-xl shadow-indigo-600/20">
+                        Pilih Paket
+                    </button>
+                </div>
+
+                <div class="bg-slate-900/30 border border-slate-900 hover:border-amber-500/30 rounded-2xl p-6.5 flex flex-col justify-between hover:scale-[1.02] transition-all duration-300 shadow-xl group backdrop-blur-md">
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xs font-black text-white tracking-widest uppercase group-hover:text-amber-400 transition-colors">Paket Reseller</h3>
+                            <span class="bg-amber-500/5 text-amber-400 border border-amber-500/15 px-2.5 py-1 rounded-lg text-[10px] font-black tracking-wider">Selamanya</span>
+                        </div>
+                        <div class="text-white">
+                            <span class="text-3xl font-black tracking-tight">Rp 400.000</span>
+                        </div>
+                        <div class="border-t border-slate-900 pt-5 space-y-3 text-xs text-slate-400 font-medium">
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-amber-500 text-[11px]"></i> Masa Aktif Selamanya</p>
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-amber-500 text-[11px]"></i> Hak Distribusi Penjualan</p>
+                        </div>
+                    </div>
+                    <button onclick="bukaPopupPayment('Paket Reseller', 400000)" class="mt-10 w-full bg-slate-900 hover:bg-amber-600 border border-slate-800 hover:border-transparent text-white py-3.5 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-md">
+                        Pilih Paket
+                    </button>
+                </div>
+
+                <div class="bg-slate-900/30 border border-slate-900 hover:border-purple-500/30 rounded-2xl p-6.5 flex flex-col justify-between hover:scale-[1.02] transition-all duration-300 shadow-xl group backdrop-blur-md">
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xs font-black text-white tracking-widest uppercase group-hover:text-purple-400 transition-colors">Admin Master</h3>
+                            <span class="bg-purple-500/5 text-purple-300 border border-purple-500/15 px-2.5 py-1 rounded-lg text-[10px] font-black tracking-wider">Full Akses</span>
+                        </div>
+                        <div class="text-white">
+                            <span class="text-3xl font-black tracking-tight">Rp 3.600.000</span>
+                        </div>
+                        <div class="border-t border-slate-900 pt-5 space-y-3 text-xs text-slate-400 font-medium">
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-purple-500 text-[11px]"></i> Kontrol Server Tertinggi</p>
+                            <p class="flex items-center gap-2.5"><i class="fa-solid fa-circle-check text-purple-500 text-[11px]"></i> Manajemen Mitra Agen</p>
+                        </div>
+                    </div>
+                    <button onclick="bukaPopupPayment('Paket Admin Master', 3600000)" class="mt-10 w-full bg-gradient-to-r from-purple-700 via-purple-600 to-indigo-700 hover:from-purple-600 hover:to-indigo-600 text-white py-3.5 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-lg shadow-purple-600/10">
+                        Pilih Paket
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="payment-modal-overlay" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xl flex items-center justify-center p-4 hidden transition-all duration-300">
+        <div class="bg-slate-900/90 border border-slate-800/80 w-full max-w-md rounded-2xl p-6.5 shadow-2xl relative max-h-[90vh] overflow-y-auto backdrop-blur-2xl neon-glow-indigo">
+            
+            <button onclick="tutupPopupPayment()" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-all duration-300 cursor-pointer w-8 h-8 rounded-xl bg-slate-950 flex items-center justify-center border border-slate-800/60 hover:scale-105">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <div class="text-center pb-4 border-b border-slate-800/60">
+                <h3 class="text-xs font-black text-white tracking-widest uppercase flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-credit-card text-indigo-400 animate-pulse"></i> Otomatis Payment iPaymu
+                </h3>
+                <p class="text-[11px] text-slate-400 font-medium mt-1">Isi data di bawah untuk membuat invoice transaksi aman secara instan</p>
+            </div>
+
+            <div class="my-6 p-4 rounded-xl bg-slate-950 border border-slate-800 text-center">
+                <p id="qris-package-title" class="text-xs font-extrabold text-slate-300 tracking-wide">Nama Lisensi</p>
+                <p id="qris-package-price" class="text-lg font-black text-indigo-400 mt-1">Rp 0</p>
+            </div>
+
+            <form id="formUploadBukti" onsubmit="prosesCheckoutGateway(event)" class="space-y-4">
+                <div>
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Nama Pembeli</label>
+                    <input type="text" id="input-nama" required placeholder="Nama pemegang akun lisensi" class="w-full bg-slate-950 border border-slate-800 focus:border-indigo-500 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-600 focus:outline-none transition-all duration-300 font-medium">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Username Telegram</label>
+                    <input type="text" id="input-telegram" required placeholder="Contoh: @username_anda" class="w-full bg-slate-950 border border-slate-800 focus:border-indigo-500 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-600 focus:outline-none transition-all duration-300 font-medium">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Nomor WhatsApp</label>
+                    <input type="tel" id="input-whatsapp" required placeholder="Contoh: 081234567xxx" class="w-full bg-slate-950 border border-slate-800 focus:border-indigo-500 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-600 focus:outline-none transition-all duration-300 font-medium">
+                </div>
+
+                <div id="status-notifikasi" class="hidden p-3.5 rounded-xl text-[11px] font-semibold leading-relaxed"></div>
+
+                <button type="submit" id="btn-submit-bukti" class="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white py-3.5 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-indigo-600/10 active:scale-98">
+                    <i class="fa-solid fa-bolt text-[10px]"></i> Proses Pembayaran
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <section id="bantuan" class="py-24 max-w-2xl mx-auto px-4 relative">
+        <div class="bg-slate-900/30 border border-slate-900 rounded-2xl p-6 sm:p-8 text-center space-y-8 backdrop-blur-md">
+            <div class="space-y-1.5">
+                <h2 class="text-lg font-black text-white tracking-wide">Pusat Hubungan Telegram Eksternal</h2>
+                <p class="text-xs text-slate-400 font-medium">Verifikasi status keagenan merchant atau hubungi tim bantuan teknis manual</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                <div class="bg-slate-950/60 border border-slate-900/60 p-5 rounded-xl flex flex-col justify-between items-center gap-5">
+                    <div class="space-y-1.5">
+                        <h4 class="text-xs font-black text-white uppercase tracking-widest">Telegram Developer</h4>
+                        <p class="text-[11px] text-slate-400 font-medium px-2 leading-relaxed">Cek validasi lisensi utama langsung ke pengembang resmi.</p>
+                    </div>
+                    <button onclick="bukaTelegramDev()" class="w-full bg-[#229ED9] hover:bg-[#1c84b5] text-white py-3 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer flex items-center justify-center gap-1.5 shadow-md active:scale-97">
+                        <i class="fa-brands fa-telegram text-sm"></i> Chat Dev
+                    </button>
+                </div>
+
+                <div class="bg-slate-950/60 border border-slate-900/60 p-5 rounded-xl flex flex-col justify-between items-center gap-5">
+                    <div class="space-y-1.5">
+                        <h4 class="text-xs font-black text-white uppercase tracking-widest">Telegram Reseller</h4>
+                        <p class="text-[11px] text-slate-400 font-medium px-2 leading-relaxed">Hubungi perwakilan distribusi resmi Rayanxweb37.</p>
+                    </div>
+                    <button onclick="bukaTelegramReseller()" class="w-full bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-400 hover:to-purple-400 text-white py-3 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer flex items-center justify-center gap-1.5 shadow-md active:scale-97">
+                        <i class="fa-brands fa-telegram text-sm"></i> Chat Reseller
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-700 py-12 border-t border-slate-900/80 text-center text-xs font-bold tracking-wider">
+        <p class="text-slate-500">RESELLER RAYANXWEB &copy; - AJM GUARDIAN</p>
+    </footer>
+
+    <div id="modal-fitur" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xl flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-800 w-full max-w-xs rounded-2xl p-6 text-center relative shadow-2xl neon-glow-indigo">
+            <button onclick="tutupModalFitur()" class="absolute top-4 right-4 text-slate-500 hover:text-white transition-all cursor-pointer w-7 h-7 bg-slate-950 border border-slate-800 rounded-lg flex items-center justify-center">
+                <i class="fa-solid fa-xmark text-xs"></i>
+            </button>
+            <div class="w-12 h-12 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center mx-auto mb-4 text-indigo-400">
+                <i class="fa-solid fa-desktop text-base" id="modal-icon"></i>
+            </div>
+            <h3 class="text-xs font-black text-white tracking-widest uppercase" id="modal-title">Nama Fitur</h3>
+            <p class="text-xs text-slate-300 mt-4 leading-relaxed font-medium" id="modal-description">Deskripsi penjelasan fungsi fitur.</p>
+            <button onclick="tutupModalFitur()" class="mt-6 w-full bg-slate-800 hover:bg-slate-750 text-white py-3 rounded-xl text-xs font-black tracking-widest uppercase transition-all duration-300 cursor-pointer">Dimengerti</button>
+        </div>
+    </div>
+
+    <script>
+        // MASUKKAN DOMAIN UTAMA BACKEND VERCEL ANDA DI SINI
+        const BACKEND_URL = "https://ajm-payment-backend.vercel.app"; 
+
+        let orderPaket = { nama: "", harga: 0 };
+
+        function bukaModalFitur(judul, deskripsi, iconClass) {
+            document.getElementById('modal-title').innerText = judul;
+            document.getElementById('modal-description').innerText = deskripsi;
+            document.getElementById('modal-icon').className = `fa-solid ${iconClass} text-base`;
+            document.getElementById('modal-fitur').classList.remove('hidden');
+        }
+
+        function tutupModalFitur() { document.getElementById('modal-fitur').classList.add('hidden'); }
+
+        function toggleTampilanFitur() {
+            const extendedDiv = document.getElementById('extended-features');
+            const btnText = document.querySelector('#btn-toggle-fitur span');
+            const btnIcon = document.getElementById('icon-toggle-fitur');
+            if(extendedDiv.classList.contains('hidden')) {
+                extendedDiv.classList.remove('hidden');
+                btnText.innerText = "Tutup Fitur";
+                btnIcon.className = "fa-solid fa-chevron-up text-[10px]";
+            } else {
+                extendedDiv.classList.add('hidden');
+                btnText.innerText = "Klik Selengkapnya";
+                btnIcon.className = "fa-solid fa-chevron-down text-[10px]";
+            }
+        }
+
+        function bukaPopupPayment(namaPaket, hargaPaket) {
+            orderPaket.nama = namaPaket;
+            orderPaket.harga = hargaPaket;
+            document.getElementById('qris-package-title').innerText = namaPaket;
+            document.getElementById('qris-package-price').innerText = "Rp " + hargaPaket.toLocaleString('id-ID');
+            document.getElementById('formUploadBukti').reset();
+            document.getElementById('status-notifikasi').classList.add('hidden');
+            document.getElementById('payment-modal-overlay').classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function tutupPopupPayment() {
+            document.getElementById('payment-modal-overlay').classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        async function prosesCheckoutGateway(event) {
+            event.preventDefault();
+            const nama = document.getElementById('input-nama').value;
+            const telegram = document.getElementById('input-telegram').value;
+            const whatsapp = document.getElementById('input-whatsapp').value;
+            const notif = document.getElementById('status-notifikasi');
+            const btnSubmit = document.getElementById('btn-submit-bukti');
+
+            btnSubmit.disabled = true;
+            btnSubmit.innerText = "Memproses Invoice...";
+            notif.classList.remove('hidden');
+            notif.className = "p-3.5 rounded-xl text-[11px] font-semibold bg-slate-950 text-slate-400 block border border-slate-800";
+            notif.innerText = "Menghubungkan ke secure gateway iPaymu...";
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/payment`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        packageName: orderPaket.nama,
+                        price: orderPaket.harga,
+                        name: nama,
+                        telegram: telegram,
+                        whatsapp: whatsapp
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    notif.className = "p-3.5 rounded-xl text-[11px] font-bold bg-emerald-500/5 text-emerald-400 border border-emerald-500/15 mt-2 block";
+                    notif.innerHTML = "Sukses! Mengalihkan ke halaman checkout aman iPaymu...";
+                    setTimeout(() => { window.location.href = data.paymentUrl; }, 1500);
+                } else {
+                    throw new Error(data.message || "Gagal memperoleh payment URL");
+                }
+            } catch (error) {
+                btnSubmit.disabled = false;
+                btnSubmit.innerHTML = `<i class="fa-solid fa-bolt text-[10px]"></i> Proses Pembayaran`;
+                notif.className = "p-3.5 rounded-xl text-[11px] font-bold bg-rose-500/5 text-rose-400 border border-rose-500/15 mt-2 block";
+                notif.innerText = "Gagal: " + error.message;
+            }
+        }
+
+        function bukaTelegramDev() {
+            window.open(`https://t.me/ajm_project?text=${encodeURIComponent("hallo Dev apakah benar dengan username @Rayanxweb37 adalah reseller resmi")}`, '_blank');
+        }
+        function bukaTelegramReseller() {
+            window.open(`https://t.me/Rayanxweb37?text=${encodeURIComponent("hallo bang saya mau beli akun ajm")}`, '_blank');
+        }
+    </script>
+</body>
+</html>

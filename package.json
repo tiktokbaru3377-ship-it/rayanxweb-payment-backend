@@ -1,7 +1,7 @@
 {
   "name": "rayanxweb-payment-backend",
-  "version": "2.1.0",
-  "description": "Production Serverless Backend Core for iPaymu v2 API Integration",
+  "version": "2.2.0",
+  "description": "Production Root Serverless Backend for iPaymu v2",
   "main": "api/payment.js",
   "dependencies": {
     "cors": "^2.8.5",

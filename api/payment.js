@@ -23,8 +23,8 @@ async function handler(req, res) {
             return res.status(400).json({ success: false, message: 'Payload data formulir tidak lengkap.' });
         }
 
-        const va = process.env.IPAYMU_VA;
-        const apiKey = process.env.IPAYMU_KEY;
+        const va = process.env.IPAYMU_VA ? process.env.IPAYMU_VA.trim() : '';
+        const apiKey = process.env.IPAYMU_KEY ? process.env.IPAYMU_KEY.trim() : '';
         const botToken = process.env.TELEGRAM_BOT_TOKEN;
         const chatId = process.env.TELEGRAM_CHAT_ID;
         const backendDomain = process.env.BACKEND_DOMAIN;
